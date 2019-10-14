@@ -21,7 +21,7 @@ public abstract class Tootle.AbstractView : ScrolledWindow {
         });
     }
 
-    public AbstractView () {
+    protected AbstractView () {
         show_all ();
     }
     
